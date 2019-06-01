@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dialog Box</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="ATG.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="style.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+
+<div class="container">
+  <h3>Dialog Box </h3>
+  <!-- Button to Open the Modal -->
+  
+  <!-- Button trigger modal -->
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" data-whatever="@mdo">Click Here !</button>
+      
+      <!-- Modal -->
+      
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" id="id2">
+            <div class="modal-header">
+              
+             <a href="ATG.html" class="lip"><i class="fa fa-arrow-left" id="id9" style="font-size:18px"></i></a>
+              <h5 class="modal-title" id="exampleModalLabel">Multiple Ticket</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                
+              </button>
+            </div>
+            <div class="modal-body">
+                <h5>1.</h5>
+               
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label" id="id1">Category?</label>
+
+             <input type="text" name="category" title="category"  placeholder="Example:Entry,food,or parking etc."  class="form-control" id="recipient-name" size="1" >
+          
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label" id="id1">Description:</label>
+                  <textarea class="form-control" id="message-text" placeholder="Description" ></textarea>
+                </div>
+                <div class="form-group">
+                        <label for="recipient-name" class="col-form-label" id="id1">Ticket price for this category?</label><br/>
+
+                            <div class="btn-group">
+                                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" id="id7">
+                                            
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            ₹  </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                       <li><a tabindex="-1" href="#" class="dropdown-item">$</a></li>
+                                       <li><a tabindex="-1" href="#" class="dropdown-item">	¥</a></li>
+                                       <li><a tabindex="-1" href="#" class="dropdown-item">	₩</a></li>
+                                       <li class="divider" class="dropdown-item"></li>
+                                       
+                                    </ul>
+                                    <input type="number" name="price" title="price"  placeholder="Price per ticket"  class="form-control" id="recipient-name1" size="1">
+                                </div>
+                                
+
+                </div>
+              </form>
+            </div>
+         
+
+            <div class="footer">
+             <h6 class="copyright" >Total cost : ₹ 0 </h6>
+           
+              <button type="button" class="btn btn-success" data-dismiss="modal" id="id5">Done <i>&#x1f44c;</i> </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+</div>
+
+</body>
+</html>
