@@ -1,0 +1,71 @@
+#id1{
+ 
+	margin-left: 25px;
+
+}
+#id7{
+ 
+	margin-left: 25px;
+	background-color: #EBEBEB;
+	color: black;
+	border-color: #EBEBEB;
+
+}
+#message-text{
+	margin-left: 25px;
+	width: 400px;
+	background-color: #f7f7f7;
+	
+}
+#recipient-name{
+	
+	margin-left: 25px;
+	width: 295px;
+	background-color: #f7F7F7;
+}
+#id2{
+	height: 600px;
+}
+#recipient-name1{
+
+
+	width: 195px;
+	background-color: #f7f7f7;
+}
+::-webkit-input-placeholder {
+	color: peachpuff;
+	font-size: 14px;
+  }
+  ::-moz-placeholder {
+	color: peachpuff;
+	font-size: 14px;
+  }
+  :-ms-input-placeholder {
+	color: peachpuff;
+	font-size: 14px;
+  }
+  ::placeholder {
+	color: peachpuff;
+	font-size: 14px;
+  }
+  #id5{
+	float: right;
+	margin-bottom: 16px;
+	margin-right: 10px;
+  }
+  .copyright {
+
+	float: left;
+	margin-left: 18px;
+	margin-top: 5px;
+  }
+  #exampleModalLabel{
+	  margin-left: 25px;
+  }
+ 
+ #id9{
+	 margin-top: 8px;
+ }
+ .lip{
+	 color: black;
+ }
